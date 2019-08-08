@@ -34,6 +34,7 @@
     "postpublish": "script/postpublish",
     "prepublishOnly": "script/prepublish",
     "publish-storybook": "script/publish-storybook",
+    "prestart": "npm run dist",
     "start": "next dev",
     "dev": "next dev",
     "start-storybook": "start-storybook -p 8001",
