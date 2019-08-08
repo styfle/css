@@ -1,7 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
   "name": "primer-css",
-  "alias": "primer-css.now.sh",
   "files": [
     "docs",
     "lib",
@@ -13,14 +12,5 @@
     "script",
     "src",
     "static"
-  ],
-  "scale": {
-    "sfo": {
-      "min": 1,
-      "max": 3
-    }
-  },
-  "engines": {
-    "node": "10"
-  }
+  ]
 }

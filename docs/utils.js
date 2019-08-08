@@ -1,5 +1,4 @@
 import React from 'react'
-import getConfig from 'next/config'
 import TreeModel from 'tree-model'
 import {join} from 'path'
 
@@ -12,7 +11,7 @@ export const CommonScripts = () => <script src={getAssetPath('github/styleguide.
 
 const INDEX_PATTERN = /\/index(\.[a-z]+)?$/
 
-export const config = getConfig().publicRuntimeConfig || {}
+export const config = process.env || {}
 
 export const assetPrefix = config.assetPrefix || ''
 export const assetPath = `${assetPrefix}/static/`
